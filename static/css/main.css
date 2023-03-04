@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#name{
+    font-size: 1.15em;
+    font-weight: bold;
+    color: #cfac02;
+    text-align: center;
+    margin: 0.80em 0;
+}
+
+hr{
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid #cfac02;
+}
+
+/* style the image to be wrap the text */
+#profile{
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    margin-top: 1.75em;
+    margin-right: 2em;
+}
+
+div{
+    border: 1px solid #cfac02;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    padding-left: 0;
+    margin-bottom: 1em;
+}
+
+span{
+    margin: 0.8em 2em;
+}
+
+h1{
+    font-size: 2em;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin: 0.67em 0;
+}
+
+h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin: 0.83em 0;
+}
+
+p{
+    font-size: 1.15em;
+    color: #000;
+    text-align: justify;
+    margin: 0.8em 3em;
+}
+
+h2#recent{
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 1em;
+    text-decoration-line: underline;
+}
+
+h2#whoami{
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+p#whoami{
+    font-size: 1.15em;
+    color: #000;
+    text-align: justify;
+    margin: 0.8em 3em;
+}

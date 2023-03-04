@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/main.css">
+    <title>Bart's Blog</title>
+    <h1><span id="name">Bart's</span> blog</h1>
+    <hr>
+</head>
+
+<body>
+    <span>
+        <img id="profile" src="/static/images/bart.jpg" align="left" width=300px>
+        <h2 id="whoami">Whoami?</h2>
+        <p id="whoami">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet felis non nisi efficitur scelerisque.
+            Quisque ac est fermentum, imperdiet magna condimentum, accumsan sem Aenean a dolor ac elit pellentesque
+            varius.
+            Ut eu neque at nibh pharetra malesuada. Proin vitae aliquam neque, sit amet tincidunt arcu. Aliquam quis
+            sagittis risus. Integer congue tellus in ex porttitor porta. Donec pulvinar nec lorem eget consequat.
+            Suspendisse potenti.
+        </p>
+    </span>
+    <span>
+        <h2 id="recent">Recent blog posts</h2>
+        {% for post in posts %}
+        <div>
+            <h2>{{post.title}}</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet felis non nisi efficitur
+                scelerisque.Quisque ac est fermentum, imperdiet magna condimentum, accumsan sem Aenean a dolor ac elit
+                pellentesque varius.Ut eu neque at nibh pharetra malesuada. Proin vitae aliquam neque, sit amet
+                tincidunt arcu. Aliquam quis
+                sagittis risus. Integer congue tellus in ex porttitor porta. Donec pulvinar nec lorem eget consequat.
+                Suspendisse potenti.
+            </p>
+        </div>    
+        {% endfor %}
+    </span>
+</body>
+</html>
